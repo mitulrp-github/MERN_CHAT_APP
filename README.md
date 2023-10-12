@@ -1,4 +1,4 @@
-# Text-A-Lot
+# MERN_CHAT_APP
 
 > A Realtime Chat Application
 
@@ -12,20 +12,6 @@ ES6 `module` creation along with `import /export` is used. [Babel](https://babel
 Back end is implemented using [Node JS](https://nodejs.org/en/docs), [Express JS](https://expressjs.com/en/api.html) and [MongoDB](https://docs.mongodb.com/). [Atlas](https://www.mongodb.com/cloud/atlas), the _Cloud_ version of [MongoDB](https://docs.mongodb.com/) is used. Real time communication is done using [Socket.io](https://www.npmjs.com/package/socket.io).
 
 This is a _responsive web application_ for viewing in both Mobile and Desktop.
-
-```
-This is still a work in progress
-If you find any bugs you can report it to me.
-Pull requests are always welcome. For major changes, 
-please open an issue first to discuss what you would like to change.
-
-```
-
-### Few Screenshots
-
-![Homepage](/screenshots/1.png "Homepage")
-![Chatpage](/screenshots/2.png "Chatpage")
-![Groupchat](/screenshots/3.png "Groupchat")
 
 ## Features
 
@@ -64,25 +50,6 @@ please open an issue first to discuss what you would like to change.
 
 MongoDB, Express, React, Node, Socket.IO, Chakra-UI
 
-## Hosted/Deployed
-
-https://textalot.herokuapp.com/
-
-
-## Usage
-
-**Test users**
-
-| Email | Password  |
-| -------- | --------- |
-| kohli@test.com | kohlitest |
-
-``` Or Use the guest user login feature.  ```
-
-### Clone the repository:
-```
-git clone https://github.com/SiddharthSsb11/MERN-chat-app.git
-```
 
 ### Env Variables
 
@@ -121,7 +88,3 @@ npm start
 cd frontend
 npm run build
 ```
-
-There is a Heroku postbuild script, so if you push to Heroku, no need to build manually for deployment to Heroku
-
-

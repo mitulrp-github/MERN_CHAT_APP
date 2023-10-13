@@ -48,7 +48,27 @@ This is a _responsive web application_ for viewing in both Mobile and Desktop.
 
 ## Tech Stack
 
-MongoDB, Express, React, Node, Socket.IO, Chakra-UI
+MongoDB
+Express.js
+React
+Node.js
+Socket.io
+JWT for authentication
+HTML/CSS
+Bootstrap or any other CSS framework used
+
+## Folder Structure
+client/: Front-end code
+server/: Back-end code
+server/models/: MongoDB data models
+server/routes/: Express routes
+server/controllers/: Request handling controllers
+server/config/: Configuration files
+client/src/components/: React components
+client/src/context/: React context providers
+client/src/utils/: Utility functions
+client/public/: Static assets
+client/src/App.js: Main React application file
 
 
 ### Env Variables
